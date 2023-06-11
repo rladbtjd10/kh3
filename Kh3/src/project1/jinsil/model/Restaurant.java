@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Restaurant {
 
-	private String name;
+	private String name;      // 이
 	private String location;
 	private List menu;
 	private int averStar;
