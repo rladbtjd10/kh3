@@ -6,6 +6,9 @@ public class Restaurant {
 
 	private String location;
 	private List menu;
-//	private 
-//	private 
+	private int averStar;
+	private int recommend;
+	private int searchScore;
+	private String theme;
+	
 }
