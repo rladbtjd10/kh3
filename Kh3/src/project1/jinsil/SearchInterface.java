@@ -37,11 +37,11 @@ public interface SearchInterface {
 //	최근검색어 보기
 	public List showSaveSearh();
 	
-//	  검색기록 삭제
+//	검색기록 삭제
 	public void deleteSearch();
 	
-//	  검색순위 보기
-	public List showSearchScroeRank();
+//	검색순위 보기
+	public List showSearchScoreRank();
 	
 //	음식 종류별로 묶기 
     public List themeList();
