@@ -25,8 +25,11 @@ public interface SearchInterface {
 //  별점 높은 순 보기
 	public List showStarRank();
 	
-//	내 위치랑 식당 거리 계산
+//	내 위치랑 식당 거리 계산하기
     public int calDistance(String loca1, String loca2);
+    
+//  가까운순으로 정렬하기
+    public List sortDistance();
 	
 //	가까운 순 보기
 	public List showCloseRank();
@@ -47,9 +50,10 @@ public interface SearchInterface {
     public List themeList();
 	
 //	음식 종류별 추천
-//	public showThemeList();
+	public List showFoodKindList();
 	
 //	검색필터 설정하기
+	public void settingFilter();
     
 //  내 위치 설정하기
     public void myLocation();
