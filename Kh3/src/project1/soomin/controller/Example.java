@@ -1,7 +1,7 @@
 package project1.soomin.controller;
 
-public class AlramController {
-
+public class Example {
+	
 	// [웨이팅 - 줄서기]
 	// 웨이팅 등록 알림 - 사용자가 웨이팅 리스트에 등록되었을 때 알림을 보내줌
 	// 웨이팅 연기 기능 - 예약 시간이 다가왔을 때 "연기하기" 버튼을 누르면 알림이 발송되어 사용자가 예약을 연기할 수 있도록 안내(차례넘기기)
@@ -45,6 +45,5 @@ public class AlramController {
 	// 푸시 알림 - 원하는 경우에만 받도록 설정
 	// 댓글 알림 : 사용자의 후기, 문의사항 등에 댓글이 달렸을 때 알림
 	
-	
-	
+
 }
