@@ -1,4 +1,4 @@
-package Alarm.customer;
+package project1.juyoung.src.Alarm.customer;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package Alarm.Restaurant;
+package project1.juyoung.src.Alarm.Restaurant;
 
 import java.util.List;
 
