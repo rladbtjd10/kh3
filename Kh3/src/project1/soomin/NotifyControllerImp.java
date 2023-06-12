@@ -1,4 +1,4 @@
-package project1.soomin.controller;
+package project1.soomin;
 
 public interface NotifyControllerImp {
 	

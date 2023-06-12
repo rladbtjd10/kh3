@@ -1,5 +1,7 @@
 package project1.soomin.model;
 
+import project1.junhyeok.model.User;
+
 public class Notify{
 
 	private String id;
