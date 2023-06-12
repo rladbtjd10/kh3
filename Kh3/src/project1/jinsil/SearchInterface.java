@@ -7,6 +7,9 @@ public interface SearchInterface {
 //  검색하기
 	public void doSearch();
 	
+//	식당리스트
+	public List restauList();
+	
 //	인기순 리스트 만들기
 	public List makePopuList(String name, int reserScore);
 	
@@ -52,8 +55,12 @@ public interface SearchInterface {
 //	음식 종류별 추천
 	public List showFoodKindList();
 	
-//	검색필터 설정하기
-	public void settingFilter();
+//	필터 설정하기
+//	public SearchFilter settingFilter();
+	
+//	필터대로 거른 리스트 가져오기
+	public List filterList();
+	
     
 //  내 위치 설정하기
     public void myLocation();
