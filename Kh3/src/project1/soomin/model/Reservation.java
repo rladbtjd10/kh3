@@ -2,7 +2,7 @@ package project1.soomin.model;
 
 import project1.junhyeok.model.User;
 
-public class Notify{
+public class Reservation{
 
 	private String id;
 	private String riview;
