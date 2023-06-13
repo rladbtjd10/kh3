@@ -49,7 +49,7 @@ public interface SearchInterface {
 //	검색순위 보기
 	public List showSearchScoreRank();
 	
-//	음식 종류별로 묶기 
+//	음식 종류별로 식당 묶기 
     public List themeList();
 	
 //	음식 종류별 추천
@@ -61,7 +61,6 @@ public interface SearchInterface {
 //	필터대로 거른 리스트 가져오기
 	public List filterList();
 	
-    
 //  내 위치 설정하기
     public void myLocation();
     
