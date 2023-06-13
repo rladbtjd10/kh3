@@ -3,8 +3,8 @@ package project1.soomin;
 public interface ReservationControllerImp {
 	
  public void registerWaiting();
- 	// 웨이팅 등록 알림
-     // 사용자가 웨이팅 리스트에 등록되었을 때 알림을 보내줌
+ 	// 웨이팅 등록 
+     // 사용자가 웨이팅 리스트에 등록되었을 때 
 
  public void postponeWaiting(); 
  	 // 웨이팅 연기 기능
@@ -72,25 +72,6 @@ public interface ReservationControllerImp {
  public void pickUpNotification(); 
      // 주문 완료 알림
  	// 사용자가 주문한 음식이 준비되었을 때(포장주문 픽업)
- 
-
-
-//[마이페이지 관련]    
- public void sendPreferenceNotification();
-     // 선호도 관련 알림 로직 구현
- 	// 자신의 선호도나 이용 기록을 기반으로 그와 관련된 할인 정보나 새로운 메뉴 소식을 알림으로 전달
- 
- public void notifyDiscountEvent(); 
-     // 할인 및 특별 이벤트 알림 
- 	// 식당에서 제공하는 할인 행사나 특별 이벤트가 있을 때(ex:할인 이벤트, 새로운 메뉴 출시, 음식 시음 행사 등의 정보)
- 
- public void updatePushNotificationSettings(); 
-     // 푸시 알림 설정 변경 로직 구현
- 	// 원하는 경우에만 받도록 설정
- 
- public void sendCommentNotification(); 
-     // 댓글 알림 로직 구현
- 	// 사용자의 후기, 문의사항 등에 댓글이 달렸을 때 알림
  
 
 }
