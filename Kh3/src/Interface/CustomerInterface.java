@@ -1,6 +1,6 @@
-package Alarm.customer;
+package Interface;
 
-public interface customerInterface {
+public interface CustomerInterface {
 
 	/* - 고객을 위한 기능:
 	 * 1. 웨이팅 리스트 등록: 고객은 웹사이트를 통해 웨이팅 리스트에 자신의 정보와 인원 수를 등록할 수 있음

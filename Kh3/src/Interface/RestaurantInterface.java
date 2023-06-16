@@ -1,4 +1,4 @@
-package Alarm.Restaurant;
+package Interface;
 
 public interface RestaurantInterface {
 
