@@ -67,6 +67,4 @@ public interface SearchInterface {
 //  내 위치 변경하기
     public void updateMyLocation();
 	 
-	
-	
 }
