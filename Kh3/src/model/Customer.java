@@ -1,4 +1,4 @@
-package Alarm.customer;
+package model;
 
 import java.util.List;
 
