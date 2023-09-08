@@ -13,7 +13,6 @@ header {
   top: 0;
   z-index: 999;
   width: 100vw;
-  height: 20px;
   background: #ff5e33;
 }
 
@@ -23,10 +22,10 @@ header {
   justify-content: center;
   text-align: center;
   display: flex;
-  height: 80px;
-  margin-top: 10px;
-  padding-top: 10px;
+  height: 90px;
+  margin-top: 20px;
   background-color: white;
+  background-color: #f8cdc1;
 }
 
 .head-logo img {
@@ -53,10 +52,11 @@ header {
 .head-right {
   text-align: right;
   padding-right: 50px;
+  background-color: gray;
 }
 
 .head-right ul {
-  margin-top: 0;
+  margin: 0;
 }
 
 .head-right li {
@@ -173,6 +173,7 @@ main section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 4px, 4px, 4px, 4px black;
 }
 
 main #top {
